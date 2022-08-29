@@ -1,6 +1,6 @@
-# gas-webpack-starter
+# gas-sheets2slack
 
-gas-webpack-starter is a starter kit for Google Apps Script.
+gas-sheets2slack is a starter kit to post messages from Google sheets to slack.
 
 ## Status
 
@@ -32,18 +32,10 @@ gas-webpack-starter is a starter kit for Google Apps Script.
 
 - [Node.js v16+ (v16.13.0)](https://nodejs.org/en/)
 - [Clasp](https://github.com/google/clasp)
+- [slack](https://slack.com/)
+- [Google Sheets](https://www.google.com/sheets/about/)
 
-Install [Clasp](https://github.com/google/clasp) at the first if you haven't done it yet.
-
-```shell
-npm install -g @google/clasp
-```
-
-### Login google account
-
-```shell
-npx clasp login
-```
+Note: [Create an app](https://api.slack.com/apps/) in slack and get the webhook URL from the dashboard.
 
 ## How to use
 
@@ -51,6 +43,12 @@ Clone this repository and install dependencies.
 
 ```shell
 yarn install
+```
+
+### Login google account
+
+```shell
+yarn clasp login
 ```
 
 ### Connect to your exiting project
