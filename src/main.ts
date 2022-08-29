@@ -18,7 +18,7 @@ function main() {
   const notificationDateCol = 1;
   const titleCol = 2;
   const contentCol = 3;
-  const urlCol = 3;
+  const urlCol = 4;
 
   for (let i = 0; i < rowLength; i++) {
     const notificationDate = new Date(
