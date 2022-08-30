@@ -63,6 +63,16 @@ Open App script from your spreadsheet and check out a script Id at the setting p
 }
 ```
 
+### Create a .env file
+
+Create a .env at the root, and then Add your SLACK_WEBHOOK_URL.
+
+```
+SLACK_WEBHOOK_URL=<SLACK_WEBHOOK_URL>
+```
+
+### Upload a script project
+
 Deploy your code to the existing project.
 
 ```shell
