@@ -1,8 +1,8 @@
 # gas-sheets2slack
 
 gas-sheets2slack is a starter kit to post messages from Google sheets to slack.
-Check out this article when you use this template.
 
+Check out this article when you use this template.
 [👉 How to make a reminder posts messages from Google Sheets to Slack](https://dev.to/tim_yone/how-to-make-a-schedule-reminder-for-posting-messages-from-google-sheets-to-slack-2f11)
 ## Status
 
@@ -65,7 +65,7 @@ Open App script from your spreadsheet and check out a script Id at the setting p
 
 ### Create a .env file
 
-Create a .env at the root, and then Add your SLACK_WEBHOOK_URL.
+Create a .env at the root, and then add your `SLACK_WEBHOOK_URL`.
 
 ```
 SLACK_WEBHOOK_URL=<SLACK_WEBHOOK_URL>
