@@ -3,7 +3,7 @@
 gas-sheets2slack is a starter kit to post messages from Google sheets to slack.
 Check out this article when you use this template.
 
-[👉 How to make a schedule reminder for posting messages from Google Sheets to Slack](https://dev.to/tim_yone/how-to-make-a-schedule-reminder-for-posting-messages-from-google-sheets-to-slack-2f11)
+[👉 How to make a reminder posts messages from Google Sheets to Slack](https://dev.to/tim_yone/how-to-make-a-schedule-reminder-for-posting-messages-from-google-sheets-to-slack-2f11)
 ## Status
 
 [![Release (latest by date)](https://img.shields.io/github/v/release/Kazuki-tam/gas-sheets2slack)](https://github.com/Kazuki-tam/gas-sheets2slack/releases/tag/v0.0.1)
@@ -21,8 +21,6 @@ Check out this article when you use this template.
 
 ## Main dependencies
 
-- [Google Sheets](https://www.google.com/intl/en/sheets/about/)
-- [Google Apps Script](https://workspace.google.co.jp/intl/ja/products/apps-script/)
 - [Clasp](https://github.com/google/clasp)
 - [Webpack](https://webpack.js.org/)
 - [TypeScript](https://www.typescriptlang.org/)
